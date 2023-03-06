@@ -1,2 +1,5 @@
-# NNSTU-Java
- Took this course in my university, Nizhny Novgorod State Technical University n.a. R.E. Alekseev
+<h1>Information Technology Specialist (Sep 2022 - Aug 2023)</h1>
+<h2>Syllabus</h2>
+
+<h4>Problem Set 1</h4>
+Some topics:  
