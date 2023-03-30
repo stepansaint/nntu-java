@@ -1,5 +1,8 @@
 package my.laptop;
 
+/**
+ * Provides arithmetic operations.
+ */
 public enum Operation {
 
     ADDITION {
@@ -38,6 +41,11 @@ public enum Operation {
     DIVISION {
         @Override
         public long apply(long x, long y) {
+            try {
+                long result = x / y;
+            } catch (ArithmeticException ae) {
+                throw new DivisionException("Can't divide by zero");
+            }
             return x / y;
         }
 
@@ -47,6 +55,16 @@ public enum Operation {
         }
     };
 
-    protected abstract long apply(long x, long y);
-    protected abstract double apply(double x, double y);
+    /**
+     * Applies some action to two specified numbers.
+     * @param x first number
+     * @param y second number
+     * @return the result of applying
+     */
+    abstract long apply(long x, long y);
+
+    /**
+     * Look at {@link #apply(long, long)}.
+     */
+    abstract double apply(double x, double y);
 }

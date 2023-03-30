@@ -159,7 +159,7 @@
           <text value="9"/>
         </properties>
       </component>
-      <component id="8485c" class="javax.swing.JLabel" binding="currentNumber">
+      <component id="8485c" class="javax.swing.JLabel" binding="IOField">
         <constraints>
           <grid row="0" column="1" row-span="3" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
             <minimum-size width="240" height="80"/>

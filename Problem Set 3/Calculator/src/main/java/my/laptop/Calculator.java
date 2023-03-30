@@ -2,11 +2,14 @@ package my.laptop;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
-// delete secondNumber field
+
+/**
+ * Represents the logic of the calculator.
+ */
 public class Calculator extends JFrame {
 
     private JPanel mainPanel;
-    private JLabel currentNumber;
+    private JLabel IOField;
     private JButton zero;
     private JButton one;
     private JButton two;
@@ -24,8 +27,12 @@ public class Calculator extends JFrame {
     private JButton equalsSign;
     private JButton pointSign;
     private JButton allClear;
-    private final ArithmeticOperation arithmeticOperation = new ArithmeticOperation();
+    private ArithmeticOperation arithmeticOperation;
 
+    /**
+     * Initializes a frame for the application.
+     * Shows the full application window to a user.
+     */
     public Calculator() {
         setContentPane(mainPanel);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
@@ -33,6 +40,14 @@ public class Calculator extends JFrame {
         setSize(328,428);
         setTitle("Calculator");
         setVisible(true);
+        initializeListeners();
+    }
+
+    /**
+     * Initializes all listeners for this application.
+     */
+    private void initializeListeners() {
+        arithmeticOperation = new ArithmeticOperation();
 
         zero.addActionListener(arithmeticOperation::digitAction);
         one.addActionListener(arithmeticOperation::digitAction);
@@ -51,45 +66,64 @@ public class Calculator extends JFrame {
         divisionSign.addActionListener(arithmeticOperation::operationAction);
 
         equalsSign.addActionListener(arithmeticOperation::resultAction);
+
         pointSign.addActionListener(this::pointAction);
         allClear.addActionListener(this::allClearAction);
     }
 
+    /**
+     * Prints a point to the calculator's field.
+     * @param actionEvent an event
+     */
     private void pointAction(ActionEvent actionEvent) {
-        String currentNumberText = currentNumber.getText();
+        String currentNumberText = IOField.getText();
 
         if (!currentNumberText.contains(".")) {
-            currentNumber.setText(currentNumberText + ".");
+            IOField.setText(currentNumberText + ".");
         }
     }
 
+    /**
+     * Clears everything from the calculator's field.
+     * @param actionEvent an event
+     */
     private void allClearAction(ActionEvent actionEvent) {
-        currentNumber.setText("0");
-        arithmeticOperation.firstNumber = null;
+        IOField.setText("0");
+        arithmeticOperation.firstNumberText = null;
         arithmeticOperation.operation = null;
-//        arithmeticOperation.secondNumber = null;
     }
 
+    /**
+     * Represents the arithmetic logic for a user's input.
+     */
     private class ArithmeticOperation {
-
-        String firstNumber;
+        String firstNumberText;
         Operation operation;
-//        String secondNumber;
 
+        /**
+         * Prints a specified digit from <code>actionEvent</code> to the calculator's field.
+         * @param actionEvent an event
+         */
         private void digitAction(ActionEvent actionEvent) {
             String tappedDigit = actionEvent.getActionCommand();
-            String currentNumberText = currentNumber.getText();
+            String currentNumberText = IOField.getText();
 
+            // Deal with an empty calculator's field
+            // And with behavior after user's selected operation
             if (currentNumberText.equals("0")
-                || operation != null && currentNumberText.equals(firstNumber)) {
-                currentNumber.setText(tappedDigit);
+                || operation != null && currentNumberText.equals(firstNumberText)) {
+                IOField.setText(tappedDigit);
             } else {
-                currentNumber.setText(currentNumberText + tappedDigit);
+                IOField.setText(currentNumberText + tappedDigit);
             }
         }
 
+        /**
+         * Remembers a specified operation for next calculations.
+         * @param actionEvent an event
+         */
         private void operationAction(ActionEvent actionEvent) {
-            firstNumber = currentNumber.getText();
+            firstNumberText = IOField.getText();
 
             switch (actionEvent.getActionCommand()) {
                 case "+" -> operation = Operation.ADDITION;
@@ -99,21 +133,31 @@ public class Calculator extends JFrame {
             }
         }
 
+        /**
+         * Prints the result to the calculator's field.
+          * @param actionEvent an event
+         */
         private void resultAction(ActionEvent actionEvent) {
             if (operation != null) {
-                String currentNumberText = currentNumber.getText();
+                String currentNumberText = IOField.getText();
 
-                if (firstNumber.contains(".") || currentNumberText.contains(".")) {
-                    currentNumber.setText(Double.toString(
-                        operation.apply(Double.parseDouble(firstNumber), Double.parseDouble(currentNumberText))
-                    ));
-                } else {
-                    currentNumber.setText(Long.toString(
-                        operation.apply(Long.parseLong(firstNumber), Long.parseLong(currentNumberText))
-                    ));
+                try {
+                    // Check the type of the numbers to calculate
+                    if (firstNumberText.contains(".") || currentNumberText.contains(".")) {
+                        IOField.setText(Double.toString(
+                                operation.apply(Double.parseDouble(firstNumberText), Double.parseDouble(currentNumberText))
+                        ));
+                    } else {
+                        IOField.setText(Long.toString(
+                                operation.apply(Long.parseLong(firstNumberText), Long.parseLong(currentNumberText))
+                        ));
+                    }
+
+                    // Remember the result for next calculations
+                    firstNumberText = IOField.getText();
+                } catch (DivisionException de) {
+                    IOField.setText(de.getMessage());
                 }
-
-                firstNumber = currentNumber.getText();
             }
         }
     }
