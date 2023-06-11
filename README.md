@@ -7,11 +7,9 @@
 
 #### [Problem Set 2](Problem%20Set%202) - abstraction, encapsulation, inheritance, polymorphism.
 
-#### [Problem Set 3](Problem%20Set%203)
-Some topics: APIs, exception handling. 
+#### [Problem Set 3](Problem%20Set%203) - APIs, exception handling
 
-#### [Problem Set 4](Problem%20Set%204) 
-Some topics: serialization, lambda expressions.  
+#### [Problem Set 4](Problem%20Set%204) - serialization, lambda expressions
 
 #### [Problem Set 5](Problem%20Set%205) - JDBC
 Some topics: asdlkfjas. 
