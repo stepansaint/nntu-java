@@ -3,15 +3,14 @@
 
 #### [Problem Set 1](Problem%20Set%201):
 - data types, 
-- operators.
+- statements.
 
-#### [Problem Set 2](Problem%20Set%202) - OOP principles
-Some topics: abstraction, encapsulation, inheritance, polymorphism.
+#### [Problem Set 2](Problem%20Set%202) - abstraction, encapsulation, inheritance, polymorphism.
 
-#### [Problem Set 3](Problem%20Set%203) - Generics
+#### [Problem Set 3](Problem%20Set%203)
 Some topics: APIs, exception handling. 
 
-#### [Problem Set 4](Problem%20Set%204) - Concurrency
+#### [Problem Set 4](Problem%20Set%204) 
 Some topics: serialization, lambda expressions.  
 
 #### [Problem Set 5](Problem%20Set%205) - JDBC
