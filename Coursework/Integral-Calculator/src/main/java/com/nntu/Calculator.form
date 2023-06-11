@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.nntu.Calculator">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="7" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="428" height="452"/>
+    </constraints>
+    <properties>
+      <background color="-16777216"/>
+      <debugGraphicsOptions value="0"/>
+      <doubleBuffered value="false"/>
+      <enabled value="false"/>
+      <font/>
+      <foreground color="-16777216"/>
+      <maximumSize width="328" height="428"/>
+      <minimumSize width="328" height="428"/>
+      <opaque value="true"/>
+      <preferredSize width="328" height="428"/>
+    </properties>
+    <border type="empty"/>
+    <children>
+      <component id="8035a" class="javax.swing.JButton" binding="one">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Krungthep" size="22"/>
+          <horizontalTextPosition value="11"/>
+          <opaque value="true"/>
+          <text value="1"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+      <component id="662d7" class="javax.swing.JButton" binding="two">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <borderPainted value="true"/>
+          <font name="Krungthep" size="22"/>
+          <opaque value="true"/>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="18e4d" class="javax.swing.JButton" binding="three">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Krungthep" size="22"/>
+          <opaque value="true"/>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="e0ec9" class="javax.swing.JButton" binding="four">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Krungthep" size="22"/>
+          <opaque value="true"/>
+          <text value="4"/>
+        </properties>
+      </component>
+      <component id="195d" class="javax.swing.JButton" binding="five">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Krungthep" size="22"/>
+          <opaque value="true"/>
+          <text value="5"/>
+        </properties>
+      </component>
+      <component id="c3b45" class="javax.swing.JButton" binding="six">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Krungthep" size="22"/>
+          <opaque value="true"/>
+          <text value="6"/>
+        </properties>
+      </component>
+      <component id="35cbb" class="javax.swing.JButton" binding="seven">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <contentAreaFilled value="true"/>
+          <font name="Krungthep" size="22"/>
+          <opaque value="true"/>
+          <text value="7"/>
+        </properties>
+      </component>
+      <component id="1679e" class="javax.swing.JButton" binding="eight">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Krungthep" size="22"/>
+          <iconTextGap value="6"/>
+          <opaque value="true"/>
+          <text value="8"/>
+        </properties>
+      </component>
+      <component id="9df1e" class="javax.swing.JButton" binding="nine">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Krungthep" size="22"/>
+          <opaque value="true"/>
+          <text value="9"/>
+        </properties>
+      </component>
+      <component id="8485c" class="javax.swing.JLabel" binding="IOField">
+        <constraints>
+          <grid row="0" column="2" row-span="3" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="240" height="80"/>
+            <preferred-size width="240" height="80"/>
+            <maximum-size width="240" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Arial" size="30"/>
+          <foreground color="-1"/>
+          <horizontalAlignment value="4"/>
+          <horizontalTextPosition value="11"/>
+          <opaque value="true"/>
+          <text value="0"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="aee6b" class="javax.swing.JButton" binding="divisionSign">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-357362"/>
+          <font name="Krungthep" size="22"/>
+          <opaque value="true"/>
+          <text value="÷"/>
+        </properties>
+      </component>
+      <component id="f1158" class="javax.swing.JButton" binding="equalsSign">
+        <constraints>
+          <grid row="0" column="0" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <background color="-357362"/>
+          <borderPainted value="true"/>
+          <contentAreaFilled value="true"/>
+          <defaultCapable value="true"/>
+          <doubleBuffered value="false"/>
+          <focusCycleRoot value="false"/>
+          <focusPainted value="true"/>
+          <focusTraversalPolicyProvider value="false"/>
+          <focusable value="true"/>
+          <font name="Krungthep" size="22"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value="="/>
+        </properties>
+      </component>
+      <component id="b3e59" class="javax.swing.JButton" binding="additionSign">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-357362"/>
+          <font name="Krungthep" size="22"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="11"/>
+          <opaque value="true"/>
+          <text value="+"/>
+        </properties>
+      </component>
+      <component id="51c22" class="javax.swing.JButton" binding="multiplicationSign">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-357362"/>
+          <font name="Krungthep" size="22"/>
+          <opaque value="true"/>
+          <text value="×"/>
+        </properties>
+      </component>
+      <component id="9bf54" class="javax.swing.JButton" binding="subtractionSign">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-357362"/>
+          <font name="Krungthep" size="22"/>
+          <opaque value="true"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="c96de" class="javax.swing.JButton" binding="pointSign">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Krungthep" size="22"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <text value="."/>
+        </properties>
+      </component>
+      <component id="1c51f" class="javax.swing.JButton" binding="allClearSign">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Krungthep" size="22"/>
+          <opaque value="true"/>
+          <text value="AC"/>
+        </properties>
+      </component>
+      <component id="2fd88" class="javax.swing.JButton" binding="zero">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <alignmentX value="0.0"/>
+          <alignmentY value="0.5"/>
+          <autoscrolls value="false"/>
+          <background color="-16777216"/>
+          <font name="Krungthep" size="22"/>
+          <horizontalAlignment value="0"/>
+          <iconTextGap value="0"/>
+          <inheritsPopupMenu value="false"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <rolloverEnabled value="false"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="91d83" class="javax.swing.JButton" binding="rootSign">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Krungthep" size="22"/>
+          <foreground color="-357362"/>
+          <horizontalTextPosition value="11"/>
+          <opaque value="true"/>
+          <text value="√"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+      <component id="3e06c" class="javax.swing.JButton" binding="exponentiationSign">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Krungthep" size="22"/>
+          <foreground color="-357362"/>
+          <horizontalTextPosition value="11"/>
+          <opaque value="true"/>
+          <text value="xʸ"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+      <component id="d1697" class="javax.swing.JButton" binding="rootOfEquationSign">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Krungthep" size="22"/>
+          <foreground color="-357362"/>
+          <horizontalTextPosition value="11"/>
+          <opaque value="true"/>
+          <text value="ƒ"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+      <component id="2caf0" class="javax.swing.JButton" binding="integralSign">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Krungthep" size="22"/>
+          <foreground color="-357362"/>
+          <horizontalTextPosition value="11"/>
+          <opaque value="true"/>
+          <text value="∫"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

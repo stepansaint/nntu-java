@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.nntu.Notes">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="602" height="400"/>
+    </constraints>
+    <properties>
+      <font/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="77331" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="3c567" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Save to: "/>
+            </properties>
+          </component>
+          <component id="dd1fe" class="javax.swing.JTextField" binding="pathToSave">
+            <constraints/>
+            <properties>
+              <columns value="15"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="fac47" class="javax.swing.JButton" binding="saveButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Save"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <vspacer id="4ed3a">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <grid id="10a21" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="6ca" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Open from: "/>
+            </properties>
+          </component>
+          <component id="417f0" class="javax.swing.JTextField" binding="pathToOpen">
+            <constraints/>
+            <properties>
+              <columns value="10"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="bea1e" class="javax.swing.JButton" binding="openButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Open"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <scrollpane id="32117" binding="textScroll">
+        <constraints>
+          <grid row="0" column="0" row-span="4" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <verticalScrollBarPolicy value="22"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="7f432" class="javax.swing.JTextArea" binding="text">
+            <constraints/>
+            <properties>
+              <columns value="10"/>
+              <lineWrap value="true"/>
+              <rows value="20"/>
+              <text value=""/>
+              <wrapStyleWord value="false"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>

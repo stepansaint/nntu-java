@@ -1,0 +1,7 @@
+Range: [1, 15]. Expression: x^2. Answer: 1124.6667793488368;
+(E.g., the binary system can't express some numbers...)
+Range: [1, 10]. Expression: 4. Answer: 36.0040000000018;
+Range: [-53.1229, 15]. Expression: tan(x). Answer: -53.12288287933672;
+Range: [65154879.3805, 91]. Expression: tan(x) + 4x^3. Answer: 6.5154879380462326E7;
+Range: [448.0320, 15]. Expression: 4x. Answer: 448.0319999999773;
+Range: [16.008, -3]. Expression: 4x. Answer: 16.008000000000877;

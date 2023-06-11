@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.nntu.Viewer">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+    <margin top="0" left="15" bottom="0" right="15"/>
+    <constraints>
+      <xy x="14" y="10" width="787" height="438"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <foreground color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="f3226" layout-manager="GridLayoutManager" row-count="3" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="880" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="9e120" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="id"/>
+            </properties>
+          </component>
+          <component id="5d617" class="javax.swing.JTextField" binding="id">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <columns value="10"/>
+              <foreground color="-16777216"/>
+              <horizontalAlignment value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="624fc" class="javax.swing.JButton" binding="add">
+            <constraints>
+              <grid row="0" column="2" row-span="3" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="70" height="70"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="American Typewriter" size="12"/>
+              <preferredSize width="100" height="30"/>
+              <text value="ADD"/>
+            </properties>
+          </component>
+          <component id="a645e" class="javax.swing.JTextField" binding="name">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <columns value="10"/>
+              <foreground color="-16777216"/>
+              <horizontalAlignment value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="31a55" class="javax.swing.JTextField" binding="month">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <columns value="10"/>
+              <horizontalAlignment value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="cf268" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="name"/>
+            </properties>
+          </component>
+          <component id="81d11" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="month"/>
+            </properties>
+          </component>
+          <component id="cfa9e" class="javax.swing.JSeparator">
+            <constraints>
+              <grid row="0" column="3" row-span="3" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="5" height="-1"/>
+                <preferred-size width="5" height="130"/>
+                <maximum-size width="5" height="130"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-16777216"/>
+              <orientation value="1"/>
+            </properties>
+          </component>
+          <component id="be8b6" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <text value="id"/>
+            </properties>
+          </component>
+          <component id="25805" class="javax.swing.JTextField" binding="idToFind">
+            <constraints>
+              <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <columns value="10"/>
+              <foreground color="-16777216"/>
+              <horizontalAlignment value="2"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="95d6" class="javax.swing.JButton" binding="find">
+            <constraints>
+              <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="70" height="70"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="American Typewriter" size="12"/>
+              <preferredSize width="100" height="30"/>
+              <text value="FIND"/>
+            </properties>
+            <clientProperties>
+              <hideActionText class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+          </component>
+        </children>
+      </grid>
+      <grid id="b9626" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="ae5d7">
+            <constraints/>
+            <properties>
+              <horizontalScrollBarPolicy value="31"/>
+            </properties>
+            <border type="none" title="status" title-justification="2" title-position="3">
+              <font/>
+            </border>
+            <children>
+              <component id="360c4" class="javax.swing.JTextArea" binding="status">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <columns value="40"/>
+                  <editable value="false"/>
+                  <font name="American Typewriter" size="13"/>
+                  <foreground color="-16777216"/>
+                  <lineWrap value="true"/>
+                  <name value="asdfas"/>
+                  <rows value="3"/>
+                  <text value=""/>
+                  <wrapStyleWord value="false"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
