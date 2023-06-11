@@ -1,24 +1,23 @@
-# Information Technology Specialist (Sep 2022 - July 2023)</h1>
+# Information Technology Specialist (Sep 2022 - July 2023)
 ## Syllabus
 
-#### [Problem Set 1](Problem%20Set%201) - 
-Some topics:  
+#### [Problem Set 1](Problem%20Set%201)
+Some topics: data types, operators.
 
+#### [Problem Set 2](Problem%20Set%202)
+Some topics: abstraction, encapsulation, inheritance, polymorphism.
 
-#### [Week 8](Problem%20Set%208) - HTML, CSS and JavaScript
-Some topics: TCP/IP, HTTP, tags and attributes, style attributes.
+#### [Problem Set 3](Problem%20Set%203)
+Some topics: 
 
-#### [Week 9](Problem%20Set%209) - Flask
-Some topics: GET vs POST, MVC, Jinja, Sessions and Cookies.
+#### [Problem Set 4](Problem%20Set%204) - concurrency
+Some topics: Jinf, jkf.  
 
-#### [Final Project](https://github.com/stepansaint/Harvard-Final-Project-CS50x) - Spring application
-Technology stack: Java, Spring, PostgreSQL, Thymeleaf.
+#### [Problem Set 5](Problem%20Set%205) - db 
+Some topics: asdlkfjas. 
 
-#### Emoji and Cybersecurity
-Some topics: abstraction and precision, two-factor authentication, encryption.
-
-#### Seminars
-Some topics: Git, LÖVE 2D and Lua, introduction to ML.
+#### [Coursework](Coursework) - 
+Some topics: asdlkfjas. 
 
 
 ##### Link: https://cs50.harvard.edu/x/2022/
