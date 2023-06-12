@@ -9,6 +9,6 @@
 
 #### [Problem Set 4](Problem%20Set%204) - Concurrency
 
-#### [Problem Set 5](Problem%20Set%205) - JDBC and Spring
+#### [Problem Set 5](Problem%20Set%205) - JDBC
 
 #### [Coursework](Coursework) - Integral calculator (and calculator for finding roots of equations)
