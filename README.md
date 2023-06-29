@@ -1,4 +1,3 @@
-# Information Technology Specialist (Sep 2022 - July 2023)
 ## Syllabus
 
 #### [Problem Set 1](Problem%20Set%201) - Basic concepts
