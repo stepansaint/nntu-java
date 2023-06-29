@@ -11,4 +11,4 @@
 
 #### [Problem Set 5](Problem%20Set%205) - JDBC
 
-#### [Coursework](Coursework) - Integral calculator (and calculator for finding roots of equations)
+#### [Coursework](Coursework) - Integral, Roots and Scientific Calculator
