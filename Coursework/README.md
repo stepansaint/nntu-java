@@ -1,3 +1,4 @@
+
 # Usage:
 - Open up Integral-Calculator folder in IDE
 - Make sure you have JDK 11 (and higher) installed
