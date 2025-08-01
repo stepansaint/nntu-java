@@ -1,4 +1,3 @@
-# IT Specialist
 ## Syllabus
 
 #### [Coursework](Coursework) - Integral, Roots and Scientific Calculator
